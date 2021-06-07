@@ -1,0 +1,7 @@
+{% extends "wiki/layout.html" %}
+{% block title %}
+    Wiki | {{ title }}
+{% endblock %}
+{% block body %}
+    {{ data|safe }}
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends 'wiki/layout.html' %}
+{% block title %}
+    Wiki | Page already exists
+{% endblock %}
+{% block body %}
+    <br/>
+    <h4>
+        An entry for {{ title }} always exists. Would you like to go to <a href="/wiki/{{ title }}">{{title}}</a>?
+    </h4>
+{% endblock %}
