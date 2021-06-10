@@ -1,2 +1,2 @@
 # me50
-CS50 course
+CS50 Web Programming with Python and Javascript Project 1
